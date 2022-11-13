@@ -17,7 +17,6 @@ import java.time.LocalDateTime;
 @Table(name = "allow")
 public class ClienteAllowList {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
